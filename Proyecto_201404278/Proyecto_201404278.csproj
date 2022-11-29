@@ -1,0 +1,826 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99A2E921-DEB6-4AED-AA41-7B5CEF99F79E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto_201404278</RootNamespace>
+    <AssemblyName>Proyecto_201404278</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MessagingToolkit.QRCode">
+      <HintPath>..\packages\MessagingToolkit.QRCode.1.3.0\lib\MessagingToolkit.QRCode.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\administrador\modificarUsuario.css" />
+    <Content Include="App_Themes\operador\modificarUsuario.css" />
+    <Content Include="App_Themes\principalCalendario\principalCalend.css" />
+    <Content Include="App_Themes\Tema1\estiloadministradorMaster.css" />
+    <Content Include="App_Themes\Tema1\estiloestudianteMaster.css" />
+    <Content Include="App_Themes\Tema1\estiloinstructorMaster.css" />
+    <Content Include="App_Themes\Tema1\estilooperadorMaster.css" />
+    <Content Include="App_Themes\Tema1\estilos1.css" />
+    <Content Include="App_Themes\Tema2\estiloprincipal.css" />
+    <Content Include="CSS\principal.css" />
+    <Content Include="Global.asax" />
+    <Content Include="imagenes\ingenieria.png" />
+    <Content Include="imagenes\logousuario.png" />
+    <Content Include="imagenes\sin_Carta.jpg" />
+    <Content Include="imagenes\sin_QR.jpg" />
+    <Content Include="interfaz\administrador\administradorAgregarIncidenteInsumo.aspx" />
+    <Content Include="interfaz\administrador\administradorAgregarIncidenteSalon.aspx" />
+    <Content Include="interfaz\administrador\administradorAgregarInsumo.aspx" />
+    <Content Include="interfaz\administrador\administradorCargaMasivaCursos.aspx" />
+    <Content Include="interfaz\administrador\administradorCargaMasivaMatriculacion.aspx" />
+    <Content Include="interfaz\administrador\administradorEliminarInsumo.aspx" />
+    <Content Include="interfaz\administrador\administradorEntregaPrestamo.aspx" />
+    <Content Include="interfaz\administrador\administradorModificarIncidente.aspx" />
+    <Content Include="interfaz\administrador\administradorPrestamoInsumo.aspx" />
+    <Content Include="interfaz\administrador\administradorVerIncidentesNoResuelto.aspx" />
+    <Content Include="interfaz\administrador\administradorVerInsumos.aspx" />
+    <Content Include="interfaz\administrador\administradorVerCursos.aspx" />
+    <Content Include="interfaz\administrador\administradorVerAsistencia.aspx" />
+    <Content Include="interfaz\administrador\administradorCrearReservacion.aspx" />
+    <Content Include="interfaz\administrador\administradorEliminarReservacion.aspx" />
+    <Content Include="interfaz\administrador\administradorModificarReservacion.aspx" />
+    <Content Include="interfaz\administrador\administradorVerReservas.aspx" />
+    <Content Include="interfaz\administrador\administradorVerUsuarios.aspx" />
+    <Content Include="interfaz\administrador\administradorEliminarFechas.aspx" />
+    <Content Include="interfaz\administrador\administradorVerFechas.aspx" />
+    <Content Include="interfaz\administrador\administradorAgregarFecha.aspx" />
+    <Content Include="interfaz\administrador\administradorAgregarSalon.aspx" />
+    <Content Include="interfaz\administrador\administradorEliminarSalon.aspx" />
+    <Content Include="interfaz\administrador\administradorModificarSalon.aspx" />
+    <Content Include="interfaz\administrador\administradorVerSalones.aspx" />
+    <Content Include="interfaz\administrador\administradorVerReportes.aspx" />
+    <Content Include="interfaz\administrador\administradorCargamasiva.aspx" />
+    <Content Include="interfaz\administrador\administradorEliminarUsuario.aspx" />
+    <Content Include="interfaz\administrador\administradorModificarUsuario.aspx" />
+    <Content Include="interfaz\administrador\administradorRegistrarUsuario.aspx" />
+    <Content Include="interfaz\administrador\principalAdministrador.aspx" />
+    <Content Include="interfaz\asistencia.aspx" />
+    <Content Include="interfaz\estudiante\estudianteCursosAsistidos.aspx" />
+    <Content Include="interfaz\estudiante\estudianteIncidenteSiResuelto.aspx" />
+    <Content Include="interfaz\estudiante\estudianteInsumoNoEntregado.aspx" />
+    <Content Include="interfaz\estudiante\estudianteInsumoSiEntregado.aspx" />
+    <Content Include="interfaz\estudiante\estudianteIncidenteNoResuelto.aspx" />
+    <Content Include="interfaz\estudiante\estudianteResponderCuestionario.aspx" />
+    <Content Include="interfaz\estudiante\estudianteCursosMatriculados.aspx" />
+    <Content Include="interfaz\estudiante\estudianteVerPresentaciones.aspx" />
+    <Content Include="interfaz\instructor\instructorCrearCuestionario.aspx" />
+    <Content Include="interfaz\instructor\instructorIncidenteNoResuelto.aspx" />
+    <Content Include="interfaz\instructor\instructorInsumoNoPrestado.aspx" />
+    <Content Include="interfaz\instructor\instructorInsumoSiPrestado.aspx" />
+    <Content Include="interfaz\instructor\instructorModificarCuestionario.aspx" />
+    <Content Include="interfaz\instructor\instructorVerAsistencia.aspx" />
+    <Content Include="interfaz\instructor\instructorSubirPresentacion.aspx" />
+    <Content Include="interfaz\instructor\instructor_descargarQR.aspx" />
+    <Content Include="interfaz\instructor\intructorIncidenteSiResuelto.aspx" />
+    <Content Include="interfaz\operador\operadorAgregarIncidenteInsumo.aspx" />
+    <Content Include="interfaz\operador\operadorAgregarIncidenteSalon.aspx" />
+    <Content Include="interfaz\operador\operadorAgregarInsumo.aspx" />
+    <Content Include="interfaz\operador\operadorCargaMasivaCursos.aspx" />
+    <Content Include="interfaz\operador\operadorCargaMasivaMatriculacion.aspx" />
+    <Content Include="interfaz\operador\operadorEliminarInsumo.aspx" />
+    <Content Include="interfaz\operador\operadorEntregaPrestamo.aspx" />
+    <Content Include="interfaz\operador\operadorModificarIncidente.aspx" />
+    <Content Include="interfaz\operador\operadorPrestamoInsumo.aspx" />
+    <Content Include="interfaz\operador\operadorVerIncidentesNoResuelto.aspx" />
+    <Content Include="interfaz\operador\operadorVerInsumos.aspx" />
+    <Content Include="interfaz\operador\operadorVerAsistencia.aspx" />
+    <Content Include="interfaz\operador\operadorVerCursos.aspx" />
+    <Content Include="interfaz\operador\operadorVerReservas.aspx" />
+    <Content Include="interfaz\operador\operadorVerUsuarios.aspx" />
+    <Content Include="interfaz\operador\operadorVerSalones.aspx" />
+    <Content Include="interfaz\operador\operadorEliminarSalon.aspx" />
+    <Content Include="interfaz\operador\operadorModificarSalon.aspx" />
+    <Content Include="interfaz\operador\operadorAgregarSalon.aspx" />
+    <Content Include="interfaz\operador\operadorVerReportes.aspx" />
+    <Content Include="interfaz\operador\operadorEliminarReservacion.aspx" />
+    <Content Include="interfaz\operador\operadorModificarReservacion.aspx" />
+    <Content Include="interfaz\operador\operadorCrearReservacion.aspx" />
+    <Content Include="interfaz\operador\operadorEliminarUsuario.aspx" />
+    <Content Include="interfaz\operador\operadorModificarusuario.aspx" />
+    <Content Include="interfaz\operador\operadorCrearusuario.aspx" />
+    <Content Include="interfaz\estudiante\principalEstudiante.aspx" />
+    <Content Include="interfaz\principalInicio.aspx" />
+    <Content Include="interfaz\instructor\principalInstructor.aspx" />
+    <Content Include="interfaz\operador\principalOperador.aspx" />
+    <Content Include="interfaz\principalOlvidarContra.aspx" />
+    <Content Include="interfaz\registroEstudiante.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="base_de_datos\conexion_metodos.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarIncidenteInsumo.aspx.cs">
+      <DependentUpon>administradorAgregarIncidenteInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarIncidenteInsumo.aspx.designer.cs">
+      <DependentUpon>administradorAgregarIncidenteInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarIncidenteSalon.aspx.cs">
+      <DependentUpon>administradorAgregarIncidenteSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarIncidenteSalon.aspx.designer.cs">
+      <DependentUpon>administradorAgregarIncidenteSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarInsumo.aspx.cs">
+      <DependentUpon>administradorAgregarInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarInsumo.aspx.designer.cs">
+      <DependentUpon>administradorAgregarInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCargaMasivaCursos.aspx.cs">
+      <DependentUpon>administradorCargaMasivaCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCargaMasivaCursos.aspx.designer.cs">
+      <DependentUpon>administradorCargaMasivaCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCargaMasivaMatriculacion.aspx.cs">
+      <DependentUpon>administradorCargaMasivaMatriculacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCargaMasivaMatriculacion.aspx.designer.cs">
+      <DependentUpon>administradorCargaMasivaMatriculacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarInsumo.aspx.cs">
+      <DependentUpon>administradorEliminarInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarInsumo.aspx.designer.cs">
+      <DependentUpon>administradorEliminarInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEntregaPrestamo.aspx.cs">
+      <DependentUpon>administradorEntregaPrestamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEntregaPrestamo.aspx.designer.cs">
+      <DependentUpon>administradorEntregaPrestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarIncidente.aspx.cs">
+      <DependentUpon>administradorModificarIncidente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarIncidente.aspx.designer.cs">
+      <DependentUpon>administradorModificarIncidente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorPrestamoInsumo.aspx.cs">
+      <DependentUpon>administradorPrestamoInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorPrestamoInsumo.aspx.designer.cs">
+      <DependentUpon>administradorPrestamoInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerIncidentesNoResuelto.aspx.cs">
+      <DependentUpon>administradorVerIncidentesNoResuelto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerIncidentesNoResuelto.aspx.designer.cs">
+      <DependentUpon>administradorVerIncidentesNoResuelto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerInsumos.aspx.cs">
+      <DependentUpon>administradorVerInsumos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerInsumos.aspx.designer.cs">
+      <DependentUpon>administradorVerInsumos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerCursos.aspx.cs">
+      <DependentUpon>administradorVerCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerCursos.aspx.designer.cs">
+      <DependentUpon>administradorVerCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerAsistencia.aspx.cs">
+      <DependentUpon>administradorVerAsistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerAsistencia.aspx.designer.cs">
+      <DependentUpon>administradorVerAsistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCrearReservacion.aspx.cs">
+      <DependentUpon>administradorCrearReservacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCrearReservacion.aspx.designer.cs">
+      <DependentUpon>administradorCrearReservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarReservacion.aspx.cs">
+      <DependentUpon>administradorEliminarReservacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarReservacion.aspx.designer.cs">
+      <DependentUpon>administradorEliminarReservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarReservacion.aspx.cs">
+      <DependentUpon>administradorModificarReservacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarReservacion.aspx.designer.cs">
+      <DependentUpon>administradorModificarReservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerReservas.aspx.cs">
+      <DependentUpon>administradorVerReservas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerReservas.aspx.designer.cs">
+      <DependentUpon>administradorVerReservas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerUsuarios.aspx.cs">
+      <DependentUpon>administradorVerUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerUsuarios.aspx.designer.cs">
+      <DependentUpon>administradorVerUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarFechas.aspx.cs">
+      <DependentUpon>administradorEliminarFechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarFechas.aspx.designer.cs">
+      <DependentUpon>administradorEliminarFechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerFechas.aspx.cs">
+      <DependentUpon>administradorVerFechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerFechas.aspx.designer.cs">
+      <DependentUpon>administradorVerFechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarFecha.aspx.cs">
+      <DependentUpon>administradorAgregarFecha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarFecha.aspx.designer.cs">
+      <DependentUpon>administradorAgregarFecha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarSalon.aspx.cs">
+      <DependentUpon>administradorAgregarSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorAgregarSalon.aspx.designer.cs">
+      <DependentUpon>administradorAgregarSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarSalon.aspx.cs">
+      <DependentUpon>administradorEliminarSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarSalon.aspx.designer.cs">
+      <DependentUpon>administradorEliminarSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarSalon.aspx.cs">
+      <DependentUpon>administradorModificarSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarSalon.aspx.designer.cs">
+      <DependentUpon>administradorModificarSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerSalones.aspx.cs">
+      <DependentUpon>administradorVerSalones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerSalones.aspx.designer.cs">
+      <DependentUpon>administradorVerSalones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerReportes.aspx.cs">
+      <DependentUpon>administradorVerReportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorVerReportes.aspx.designer.cs">
+      <DependentUpon>administradorVerReportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCargamasiva.aspx.cs">
+      <DependentUpon>administradorCargamasiva.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorCargamasiva.aspx.designer.cs">
+      <DependentUpon>administradorCargamasiva.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarUsuario.aspx.cs">
+      <DependentUpon>administradorEliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorEliminarUsuario.aspx.designer.cs">
+      <DependentUpon>administradorEliminarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarUsuario.aspx.cs">
+      <DependentUpon>administradorModificarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorModificarUsuario.aspx.designer.cs">
+      <DependentUpon>administradorModificarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administrador.Master.cs">
+      <DependentUpon>administrador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administrador.Master.designer.cs">
+      <DependentUpon>administrador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorRegistrarUsuario.aspx.cs">
+      <DependentUpon>administradorRegistrarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\administradorRegistrarUsuario.aspx.designer.cs">
+      <DependentUpon>administradorRegistrarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\asistencia.aspx.cs">
+      <DependentUpon>asistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\asistencia.aspx.designer.cs">
+      <DependentUpon>asistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\asistencia.Master.cs">
+      <DependentUpon>asistencia.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\asistencia.Master.designer.cs">
+      <DependentUpon>asistencia.Master</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteCursosAsistidos.aspx.cs">
+      <DependentUpon>estudianteCursosAsistidos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteCursosAsistidos.aspx.designer.cs">
+      <DependentUpon>estudianteCursosAsistidos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteIncidenteSiResuelto.aspx.cs">
+      <DependentUpon>estudianteIncidenteSiResuelto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteIncidenteSiResuelto.aspx.designer.cs">
+      <DependentUpon>estudianteIncidenteSiResuelto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteInsumoNoEntregado.aspx.cs">
+      <DependentUpon>estudianteInsumoNoEntregado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteInsumoNoEntregado.aspx.designer.cs">
+      <DependentUpon>estudianteInsumoNoEntregado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteInsumoSiEntregado.aspx.cs">
+      <DependentUpon>estudianteInsumoSiEntregado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteInsumoSiEntregado.aspx.designer.cs">
+      <DependentUpon>estudianteInsumoSiEntregado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteIncidenteNoResuelto.aspx.cs">
+      <DependentUpon>estudianteIncidenteNoResuelto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteIncidenteNoResuelto.aspx.designer.cs">
+      <DependentUpon>estudianteIncidenteNoResuelto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteResponderCuestionario.aspx.cs">
+      <DependentUpon>estudianteResponderCuestionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteResponderCuestionario.aspx.designer.cs">
+      <DependentUpon>estudianteResponderCuestionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteCursosMatriculados.aspx.cs">
+      <DependentUpon>estudianteCursosMatriculados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteCursosMatriculados.aspx.designer.cs">
+      <DependentUpon>estudianteCursosMatriculados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudiante.Master.cs">
+      <DependentUpon>estudiante.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudiante.Master.designer.cs">
+      <DependentUpon>estudiante.Master</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteVerPresentaciones.aspx.cs">
+      <DependentUpon>estudianteVerPresentaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\estudianteVerPresentaciones.aspx.designer.cs">
+      <DependentUpon>estudianteVerPresentaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorCrearCuestionario.aspx.cs">
+      <DependentUpon>instructorCrearCuestionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorCrearCuestionario.aspx.designer.cs">
+      <DependentUpon>instructorCrearCuestionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorIncidenteNoResuelto.aspx.cs">
+      <DependentUpon>instructorIncidenteNoResuelto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorIncidenteNoResuelto.aspx.designer.cs">
+      <DependentUpon>instructorIncidenteNoResuelto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorInsumoNoPrestado.aspx.cs">
+      <DependentUpon>instructorInsumoNoPrestado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorInsumoNoPrestado.aspx.designer.cs">
+      <DependentUpon>instructorInsumoNoPrestado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorInsumoSiPrestado.aspx.cs">
+      <DependentUpon>instructorInsumoSiPrestado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorInsumoSiPrestado.aspx.designer.cs">
+      <DependentUpon>instructorInsumoSiPrestado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorModificarCuestionario.aspx.cs">
+      <DependentUpon>instructorModificarCuestionario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorModificarCuestionario.aspx.designer.cs">
+      <DependentUpon>instructorModificarCuestionario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorVerAsistencia.aspx.cs">
+      <DependentUpon>instructorVerAsistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorVerAsistencia.aspx.designer.cs">
+      <DependentUpon>instructorVerAsistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructor.Master.cs">
+      <DependentUpon>instructor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructor.Master.designer.cs">
+      <DependentUpon>instructor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorSubirPresentacion.aspx.cs">
+      <DependentUpon>instructorSubirPresentacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructorSubirPresentacion.aspx.designer.cs">
+      <DependentUpon>instructorSubirPresentacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructor_descargarQR.aspx.cs">
+      <DependentUpon>instructor_descargarQR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\instructor_descargarQR.aspx.designer.cs">
+      <DependentUpon>instructor_descargarQR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\intructorIncidenteSiResuelto.aspx.cs">
+      <DependentUpon>intructorIncidenteSiResuelto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\intructorIncidenteSiResuelto.aspx.designer.cs">
+      <DependentUpon>intructorIncidenteSiResuelto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarIncidenteInsumo.aspx.cs">
+      <DependentUpon>operadorAgregarIncidenteInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarIncidenteInsumo.aspx.designer.cs">
+      <DependentUpon>operadorAgregarIncidenteInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarIncidenteSalon.aspx.cs">
+      <DependentUpon>operadorAgregarIncidenteSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarIncidenteSalon.aspx.designer.cs">
+      <DependentUpon>operadorAgregarIncidenteSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarInsumo.aspx.cs">
+      <DependentUpon>operadorAgregarInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarInsumo.aspx.designer.cs">
+      <DependentUpon>operadorAgregarInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCargaMasivaCursos.aspx.cs">
+      <DependentUpon>operadorCargaMasivaCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCargaMasivaCursos.aspx.designer.cs">
+      <DependentUpon>operadorCargaMasivaCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCargaMasivaMatriculacion.aspx.cs">
+      <DependentUpon>operadorCargaMasivaMatriculacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCargaMasivaMatriculacion.aspx.designer.cs">
+      <DependentUpon>operadorCargaMasivaMatriculacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarInsumo.aspx.cs">
+      <DependentUpon>operadorEliminarInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarInsumo.aspx.designer.cs">
+      <DependentUpon>operadorEliminarInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEntregaPrestamo.aspx.cs">
+      <DependentUpon>operadorEntregaPrestamo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEntregaPrestamo.aspx.designer.cs">
+      <DependentUpon>operadorEntregaPrestamo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarIncidente.aspx.cs">
+      <DependentUpon>operadorModificarIncidente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarIncidente.aspx.designer.cs">
+      <DependentUpon>operadorModificarIncidente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorPrestamoInsumo.aspx.cs">
+      <DependentUpon>operadorPrestamoInsumo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorPrestamoInsumo.aspx.designer.cs">
+      <DependentUpon>operadorPrestamoInsumo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerIncidentesNoResuelto.aspx.cs">
+      <DependentUpon>operadorVerIncidentesNoResuelto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerIncidentesNoResuelto.aspx.designer.cs">
+      <DependentUpon>operadorVerIncidentesNoResuelto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerInsumos.aspx.cs">
+      <DependentUpon>operadorVerInsumos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerInsumos.aspx.designer.cs">
+      <DependentUpon>operadorVerInsumos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerAsistencia.aspx.cs">
+      <DependentUpon>operadorVerAsistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerAsistencia.aspx.designer.cs">
+      <DependentUpon>operadorVerAsistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerCursos.aspx.cs">
+      <DependentUpon>operadorVerCursos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerCursos.aspx.designer.cs">
+      <DependentUpon>operadorVerCursos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerReservas.aspx.cs">
+      <DependentUpon>operadorVerReservas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerReservas.aspx.designer.cs">
+      <DependentUpon>operadorVerReservas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerUsuarios.aspx.cs">
+      <DependentUpon>operadorVerUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerUsuarios.aspx.designer.cs">
+      <DependentUpon>operadorVerUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerSalones.aspx.cs">
+      <DependentUpon>operadorVerSalones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerSalones.aspx.designer.cs">
+      <DependentUpon>operadorVerSalones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarSalon.aspx.cs">
+      <DependentUpon>operadorEliminarSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarSalon.aspx.designer.cs">
+      <DependentUpon>operadorEliminarSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarSalon.aspx.cs">
+      <DependentUpon>operadorModificarSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarSalon.aspx.designer.cs">
+      <DependentUpon>operadorModificarSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarSalon.aspx.cs">
+      <DependentUpon>operadorAgregarSalon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorAgregarSalon.aspx.designer.cs">
+      <DependentUpon>operadorAgregarSalon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerReportes.aspx.cs">
+      <DependentUpon>operadorVerReportes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorVerReportes.aspx.designer.cs">
+      <DependentUpon>operadorVerReportes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarReservacion.aspx.cs">
+      <DependentUpon>operadorEliminarReservacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarReservacion.aspx.designer.cs">
+      <DependentUpon>operadorEliminarReservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarReservacion.aspx.cs">
+      <DependentUpon>operadorModificarReservacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarReservacion.aspx.designer.cs">
+      <DependentUpon>operadorModificarReservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCrearReservacion.aspx.cs">
+      <DependentUpon>operadorCrearReservacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCrearReservacion.aspx.designer.cs">
+      <DependentUpon>operadorCrearReservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarUsuario.aspx.cs">
+      <DependentUpon>operadorEliminarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorEliminarUsuario.aspx.designer.cs">
+      <DependentUpon>operadorEliminarUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarusuario.aspx.cs">
+      <DependentUpon>operadorModificarusuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorModificarusuario.aspx.designer.cs">
+      <DependentUpon>operadorModificarusuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCrearusuario.aspx.cs">
+      <DependentUpon>operadorCrearusuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operadorCrearusuario.aspx.designer.cs">
+      <DependentUpon>operadorCrearusuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\operador.Master.cs">
+      <DependentUpon>operador.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\operador.Master.designer.cs">
+      <DependentUpon>operador.Master</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\principal.Master.cs">
+      <DependentUpon>principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\principal.Master.designer.cs">
+      <DependentUpon>principal.Master</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\administrador\principalAdministrador.aspx.cs">
+      <DependentUpon>principalAdministrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\administrador\principalAdministrador.aspx.designer.cs">
+      <DependentUpon>principalAdministrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\estudiante\principalEstudiante.aspx.cs">
+      <DependentUpon>principalEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\estudiante\principalEstudiante.aspx.designer.cs">
+      <DependentUpon>principalEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\principalInicio.aspx.cs">
+      <DependentUpon>principalInicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\principalInicio.aspx.designer.cs">
+      <DependentUpon>principalInicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\instructor\principalInstructor.aspx.cs">
+      <DependentUpon>principalInstructor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\instructor\principalInstructor.aspx.designer.cs">
+      <DependentUpon>principalInstructor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\operador\principalOperador.aspx.cs">
+      <DependentUpon>principalOperador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\operador\principalOperador.aspx.designer.cs">
+      <DependentUpon>principalOperador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\principalOlvidarContra.aspx.cs">
+      <DependentUpon>principalOlvidarContra.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\principalOlvidarContra.aspx.designer.cs">
+      <DependentUpon>principalOlvidarContra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="interfaz\registroEstudiante.aspx.cs">
+      <DependentUpon>registroEstudiante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="interfaz\registroEstudiante.aspx.designer.cs">
+      <DependentUpon>registroEstudiante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="interfaz\principal.Master" />
+    <Content Include="interfaz\administrador\administrador.Master" />
+    <Content Include="interfaz\operador\operador.Master" />
+    <Content Include="interfaz\instructor\instructor.Master" />
+    <Content Include="interfaz\estudiante\estudiante.Master" />
+    <Content Include="packages.config" />
+    <Content Include="interfaz\asistencia.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1505</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1505/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

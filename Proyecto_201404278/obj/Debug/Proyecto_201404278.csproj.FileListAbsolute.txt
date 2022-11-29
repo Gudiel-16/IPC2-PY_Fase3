@@ -1,0 +1,63 @@
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\Proyecto_201404278.dll
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\Proyecto_201404278.pdb
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+c:\users\gudiel\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\documents\visual studio 2013\Projects\Proyecto_201404278\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.5\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.6\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.7\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.8\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_1.9\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.0\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.1\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\bin\Proyecto_201404278.dll.config
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\bin\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\bin\Proyecto_201404278.pdb
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\bin\MessagingToolkit.QRCode.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\obj\Debug\Proyecto_201404278.csprojResolveAssemblyReference.cache
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\obj\Debug\Proyecto_201404278.dll
+C:\Users\GUDIEL\Desktop\Proyecto_201404278_2.2\Proyecto_201404278\obj\Debug\Proyecto_201404278.pdb
